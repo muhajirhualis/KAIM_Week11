@@ -1,0 +1,16 @@
+date,event_type,description,region
+2012-06-23,sanctions,EU embargo on Iranian oil exports fully implemented,Middle East
+2014-09-26,opec_decision,OPEC announces no production cut despite falling prices,Global
+2014-12-01,market_shock,Brent falls below $70/barrel (from $115 in June),Global
+2016-01-20,market_shock,Brent hits 12-year low (~$27/barrel),Global
+2016-11-30,opec_decision,OPEC agrees first production cut in 8 years (1.2M bpd),Global
+2018-05-08,sanctions,U.S. withdraws from JCPOA; reimposes Iran oil sanctions,Middle East
+2019-09-14,conflict,Drone attack on Saudi Aramco Abqaiq facility (5% global supply offline),Middle East
+2020-01-03,conflict,U.S. assassination of Qasem Soleimani; Middle East tensions spike,Middle East
+2020-03-08,opec_decision,OPEC+ breakdown; Saudi Arabia launches price war,Russia/Saudi
+2020-04-20,market_shock,WTI negative pricing; Brent hits 21-year low (~$19),Global
+2020-03-16,demand_shock,Global lockdowns crush oil demand (~30% drop),Global
+2021-08-29,supply_shock,Hurricane Ida shuts 95% of Gulf of Mexico production,North America
+2022-02-24,conflict,Russia invades Ukraine; sanctions fears spike prices,Europe
+2022-03-31,policy_response,U.S. announces 180M barrel SPR release to curb prices,North America
+2022-10-05,opec_decision,OPEC+ announces 2M bpd production cut despite U.S. opposition,Global
