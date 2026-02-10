@@ -1,0 +1,12 @@
+# Data (large files)
+data/*.csv
+!data/events.csv  # Keep curated events
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
