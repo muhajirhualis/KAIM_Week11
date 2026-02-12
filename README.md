@@ -14,3 +14,25 @@ Detect structural breaks in Brent oil prices linked to geopolitical events using
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
+```
+## Brent Oil Price Dashboard
+
+Interactive dashboard for analyzing geopolitical event impacts on Brent oil prices.
+
+## 🚀 Quick Start
+
+### Backend Setup
+```bash
+cd backend
+pip install -r requirements.txt
+python app.py
+```
+API runs on: http://localhost:5000
+
+Frontend Setup
+```bash
+cd frontend
+npm install
+npm start
+```
+Dashboard runs on: http://localhost:3000
