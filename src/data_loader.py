@@ -54,3 +54,5 @@ class BrentDataLoader:
         if missing_prices > 0:
             print(f"⚠️ Warning: {missing_prices} missing price values (forward-filled)")
             self.df['Price'] = self.df['Price'].fillna(method='ffill')
+            
+    

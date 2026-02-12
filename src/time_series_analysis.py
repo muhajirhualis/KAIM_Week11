@@ -20,10 +20,13 @@ class TimeSeriesAnalyzer:
         self.log_returns: pd.Series = None
     
     def compute_log_returns(self) -> pd.Series:
-        """Calculate log returns with index alignment to original DataFrame."""
-        returns = np.log(self.df['Price'] / self.df['Price'].shift(1))
-        self.log_returns = returns  # Preserves original index (first value = NaN)
-        return self.log_returns
+        """Calculate log returns while PRESERVING datetime index."""
+        
+        log_returns = np.log(self.df['Price'] / self.df['Price'].shift(1)).dropna()
+        # Explicitly reassign index to be safe
+        log_returns.index = self.df['Date'].iloc[1:]  # Align with shifted series
+        self.log_returns = log_returns
+        return log_returns
     
     def adf_test(self, series: pd.Series, label: str = "Series") -> Dict:
         """Perform Augmented Dickey-Fuller test with NaN handling."""
